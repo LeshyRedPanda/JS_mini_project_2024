@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rochester", cursive;
+    font-weight: 400;
+    font-size: 1.4em;
+    background: rgb(213, 224, 49);
+    background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+/*top button*/
+.backBtnWrap {
+    width: 400px;
+    height: 40px;
+    margin:15px 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 3px rgb(60, 53, 44);
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 1px solid rgba(139, 69, 19, 0.6);
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #000;
+}
+.backBtnWrap:hover {
+    background-color: rgba(255, 228, 196, 0.87);
+}
+/*user info*/
+#userWrap {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 20px 50px 20px;
+}
+
+.userDiv {
+    width: 90%;
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 2px solid rgba(139, 69, 19, 0.6);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.userDiv li{
+    transition: .7s ease-out;
+}
+.userDiv li:hover {
+    transform: scaleX(1.2);
+    transition: .3s ease-in;
+}
+.ulUsers {
+    margin: 0;
+    padding: 8px;
+}
+
+.ulUsers p {
+    margin: 4px;
+}
+/*Post of current user button*/
+#divPostBtn {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.postBtn {
+    min-width: 500px;
+    height: 40px;
+    font-family: "Rochester", cursive;
+    box-shadow: 1px 1px 5px 3px rgb(60, 53, 44);
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 1px solid rgba(139, 69, 19, 0.6);
+    border-radius: 50px;
+    cursor: pointer;
+
+    font-size: 1em;
+}
+.postBtn:hover {
+    background-color: rgba(255, 228, 196, 0.87);
+}
+
+/*  posts  */
+#divTitleWrap {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*title*/
+.titleDiv {
+    width: 14vw;
+    min-height: 25vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 12px ;
+    padding: 25px;
+    border: 2px solid rgba(139, 69, 19, 0.6);
+    border-radius: 50px;
+    background-color: rgba(244, 227, 215, 0.5);
+}
+.btnMoreInfoDiv {
+    display: flex;
+    align-items: center;
+}
+
+.titleDiv h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*title button "more info here"*/
+.moreInfoBtn {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 3px rgb(60, 53, 44);
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 1px solid rgba(139, 69, 19, 0.6);
+    border-radius: 15px;
+    min-width: 100px;
+    margin: 0;
+    padding: 8px;
+    font-family: "Rochester", cursive;
+    font-size: .8em;
+}
+.moreInfoBtn:hover {
+    background-color: rgba(255, 228, 196, 0.87);
+}

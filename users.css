@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Imbue:opsz,wght@10..100,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+    background: rgb(37, 121, 37);
+    background: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+#usersWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.userCont {
+    width: 500px;
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 2px solid rgba(139, 69, 19, 0.6);
+    border-radius: 50px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*'More info here btn page 1'*/
+.userBtn {
+    font-family: "Libre Baskerville", serif;
+    box-shadow: 1px 1px 5px 3px rgb(60, 53, 44);
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 1px solid rgba(139, 69, 19, 0.6);
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 200px;
+}
+.userBtn:hover {
+    background-color: rgba(255, 228, 196, 0.87);
+}
